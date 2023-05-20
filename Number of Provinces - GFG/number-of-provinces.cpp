@@ -34,7 +34,7 @@ class Solution {
             }
         }
         int c=0;
-        int vis[V]={0};
+        int vis[V+1]={0};
         
         for(int i=0;i<V;i++){
             if(!vis[i]){
